@@ -4,6 +4,7 @@ import AdicionaVeiculo from './screens/AdicionaVeiculo'
 import RetornaVeiculos from './screens/RetornaVeiculos'
 import AtualizaVeiculo from './screens/AtualizaVeiculo'
 import DetalhaVeiculo from './screens/DetalhaVeiculo'
+import Inicial from './screens/Inicial'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route exact path='/veiculos' Component={RetornaVeiculos} />
         <Route exact path='/veiculos/atualiza/:id' Component={AtualizaVeiculo} />
         <Route exact path='/veiculo/:id' Component={DetalhaVeiculo} />
+        <Route exact path='' Component={Inicial}/>
       </Routes>
     </Router>
   )

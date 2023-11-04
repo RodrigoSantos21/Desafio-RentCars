@@ -27,7 +27,7 @@ const RetornaVeiculos = () => {
       </Container>
       <hr />
 
-      <Row className="g-2">
+      <Row className="g-4">
         {
           veiculos.map(veiculo => {
             return <Col md lg sm key={veiculo.id}>

@@ -36,6 +36,7 @@ const AdicionaVeiculo = () => {
     }
 
     await axios.post('/api/veiculos/adicionaVeiculo', dados)
+    window.location.reload(false);
   }
 
   const redirecionaLista = () => {
