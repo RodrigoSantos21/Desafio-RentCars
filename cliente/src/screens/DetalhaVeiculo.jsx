@@ -56,17 +56,18 @@ const DetalhaVeiculo = () => {
       </Card.Body>
       <ListGroup>
       <ListGroup.Item variant="info">ID: {idVeiculo}</ListGroup.Item>
-        <ListGroup.Item variant="info">Modelo: {modelo}</ListGroup.Item>
-        <ListGroup.Item variant="info">Marca: {marca}</ListGroup.Item>
-        <ListGroup.Item variant="info">Ano: {ano}</ListGroup.Item>
-        <ListGroup.Item variant="info">Motor: {motor}</ListGroup.Item>
-        <ListGroup.Item variant="info">Portas: {portas}</ListGroup.Item>
-        <ListGroup.Item variant="info">Câmbio: {cambio}</ListGroup.Item>
-        <ListGroup.Item variant="info">Ar condicionado:
-        {ar_condicionado ? ' Possui' : ' Não possui'}
-        </ListGroup.Item>
-        <ListGroup.Item variant="info">Criado em: {criado}</ListGroup.Item>
-        <ListGroup.Item variant="info">Atualizado em: {atualizado}</ListGroup.Item>
+      <ListGroup.Item variant="info">Locadora: {locadora}</ListGroup.Item>
+      <ListGroup.Item variant="info">Modelo: {modelo}</ListGroup.Item>
+      <ListGroup.Item variant="info">Marca: {marca}</ListGroup.Item>
+      <ListGroup.Item variant="info">Ano: {ano}</ListGroup.Item>
+      <ListGroup.Item variant="info">Motor: {motor}</ListGroup.Item>
+      <ListGroup.Item variant="info">Portas: {portas}</ListGroup.Item>
+      <ListGroup.Item variant="info">Câmbio: {cambio}</ListGroup.Item>
+      <ListGroup.Item variant="info">Ar condicionado:
+      {ar_condicionado ? ' Possui' : ' Não possui'}
+      </ListGroup.Item>
+      <ListGroup.Item variant="info">Criado em: {criado}</ListGroup.Item>
+      <ListGroup.Item variant="info">Atualizado em: {atualizado}</ListGroup.Item>
       </ListGroup>
       <Card.Body className='d-flex justify-content-around'>
         <Link to={`/veiculos/atualiza/${id}`}>
