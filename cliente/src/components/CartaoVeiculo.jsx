@@ -6,7 +6,7 @@ const CartaoVeiculo = ( {veiculo} ) => {
   return (
     <Card style={{width: '18rem'}}>
       <Card.Body>
-        <Card.Title>Locadora: {veiculo.locadora}</Card.Title>
+        <Card.Title>Locadora: Locadora: {veiculo.locadora}</Card.Title>
       </Card.Body>
       <ListGroup>
         <ListGroup.Item variant="info">{veiculo.marca} {veiculo.modelo}</ListGroup.Item>

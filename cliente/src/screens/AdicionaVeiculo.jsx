@@ -75,7 +75,7 @@ const AdicionaVeiculo = () => {
 
       <Form.Group className="mb-2" controlId="ano">
         <Form.Label>Ano:</Form.Label>
-        <Form.Control required size='sm' type="number" className='border-dark rounded-0' min={'0'} style={{borderWidth:'0.5px'}}
+        <Form.Control required size='sm' type="number" className='border-dark rounded-0' min={'1886'} style={{borderWidth:'0.5px'}}
           value = {ano}
           onChange={(e)=>setAno(e.target.value)}
         />
@@ -91,7 +91,7 @@ const AdicionaVeiculo = () => {
 
       <Form.Group className="mb-2" controlId="portas">
         <Form.Label>Portas:</Form.Label>
-        <Form.Control required size='sm' type="number" className='border-dark rounded-0' min={'0'} max={'6'} style={{borderWidth:'0.5px'}}
+        <Form.Control required size='sm' type="number" className='border-dark rounded-0' min={'1'} max={'6'} style={{borderWidth:'0.5px'}}
           value = {portas}
           onChange={(e)=>setPortas(e.target.value)}  
         />

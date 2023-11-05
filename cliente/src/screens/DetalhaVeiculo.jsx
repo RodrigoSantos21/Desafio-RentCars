@@ -56,7 +56,7 @@ const DetalhaVeiculo = () => {
       </Card.Body>
       <ListGroup>
       <ListGroup.Item variant="info">ID: {idVeiculo}</ListGroup.Item>
-      <ListGroup.Item variant="info">Locadora: {locadora}</ListGroup.Item>
+      <ListGroup.Item variant="info">Locadoraa: {locadora}</ListGroup.Item>
       <ListGroup.Item variant="info">Modelo: {modelo}</ListGroup.Item>
       <ListGroup.Item variant="info">Marca: {marca}</ListGroup.Item>
       <ListGroup.Item variant="info">Ano: {ano}</ListGroup.Item>
