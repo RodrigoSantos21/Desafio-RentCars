@@ -19,7 +19,7 @@ Repositório para o Desafio de Estágio da RentCars 2023. A proposta deste desaf
 
 # Instalando dependências:
 
-- Ao clonar o repositório usando `git clone git@github.com:RodrigoSantos21/Desafio-RentCars.git` ou baixando os arquivos diretamente pelo GitHub, e vá até a pasta criada com `cd "Pasta criada"`.
+- Ao clonar o repositório usando `git clone git@github.com:RodrigoSantos21/Desafio-RentCars.git` ou baixando os arquivos diretamente pelo GitHub, vá até a pasta criada com `cd "Pasta criada"`.
 - No diretório atual, digite: `npm install mysql sequelize express nodemon`.
 - Execute o comando `cd cliente` e digite: `npm install`.
 
